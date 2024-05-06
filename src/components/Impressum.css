@@ -1,0 +1,7 @@
+.impressum_outer_container {
+  padding: 2rem 10rem;
+}
+
+.impressum_inner_container > * {
+    margin-top: 2rem;
+}

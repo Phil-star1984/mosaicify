@@ -1,0 +1,77 @@
+.keyvisual_container {
+  padding: 2rem 10rem;
+  background-image: url("../assets/1000_F_379142172_GAFmBGn9g72UZGG6yooitJuc4DmoOObV.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  align-items: center;
+}
+
+.keyvisual_text {
+  color: white;
+  grid-column: 1 / 4;
+  font-size: x-large;
+}
+
+.keyvisual_image img {
+  width: 30rem;
+  margin-top: 2rem;
+}
+
+.mosaic_generator_container {
+  padding: 4rem 10rem;
+  padding-bottom: 10rem;
+  height: auto;
+  display: grid;
+  gap: 3rem;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+}
+
+button {
+  padding: 10px 20px;
+  width: 100%;
+}
+
+form.mosaic_generator_input {
+  background-color: rgb(181, 181, 181);
+  padding: 20px;
+  border-radius: 8px;
+  color: white;
+  max-width: 380px;
+}
+
+.mosaic_steps_text {
+  margin-bottom: 20px;
+}
+
+select.choose_size {
+  padding: 10px 20px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  width: 100%;
+  text-align: center;
+}
+
+.mosaic_info_text {
+  margin-top: 20px;
+}
+
+.mosaic_canvas {
+  border-radius: 3px;
+  max-width: 100%;
+  max-height: 100vh; /* 100% der Viewport-Höhe */
+  object-fit: contain; /* Behält das Seitenverhältnis bei, während das Bild innerhalb der gegebenen Dimensionen passt */
+}
+
+.weekten_loading_container {
+  border: 2px solid rgb(181, 181, 181);
+  border-radius: 8px;
+  padding: 1rem;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  align-items: center;
+  justify-items: center; 
+}
