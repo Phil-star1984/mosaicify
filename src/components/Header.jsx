@@ -10,7 +10,7 @@ function Header() {
       </Link>
       <nav>
         <ul>
-          <li>
+          <li /* style={{ display: "none" }} */>
             <Link to="/nothing">Nothing</Link>
           </li>
           <li>

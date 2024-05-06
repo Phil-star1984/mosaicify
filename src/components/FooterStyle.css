@@ -9,3 +9,9 @@ footer {
   bottom: 0;
   width: 100%;
 }
+
+@media only screen and (max-width: 768px) {
+  footer {
+    padding: 2rem 2rem;
+  }
+}

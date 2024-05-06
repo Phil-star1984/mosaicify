@@ -2,7 +2,7 @@ import React, { useEffect, useState, useRef } from "react";
 import { GuardSpinner } from "react-spinners-kit";
 import heic2any from "heic2any";
 import "../components/MainContentStyle.css";
-import keyImage from "../assets/1000_F_420743612_wzHsIqIytc550i64skSEoL9IQHaZLz87.png";
+import keyImage from "../assets/mosaic_keyvisual.png";
 
 function MainContent() {
   const [mosaicSize, setMosaicSize] = useState("1200x1200px");
@@ -163,7 +163,7 @@ function MainContent() {
           <h1>Erstelle schnell und kostenlos Mosaike für Social Media</h1>
         </div>
         <div className="keyvisual_image">
-          <img src={keyImage} />
+          <img alt="Mosaik bestehend aus mehreren Bildern" src={keyImage} />
         </div>
       </div>
 
@@ -215,8 +215,10 @@ function MainContent() {
         <div className="weekten_loading_container">
           {isLoading && <GuardSpinner />}
 
-          {images.length > 0 && (
+          {images.length > 0 ? (
             <canvas className="mosaic_canvas" ref={canvasRef}></canvas>
+          ) : (
+            <p className="mosaic_textfeld">Mosaic erscheint hier</p>
           )}
         </div>
       </div>
