@@ -160,7 +160,7 @@ function MainContent() {
     <>
       <div className="keyvisual_container">
         <div className="keyvisual_text">
-          <h1>Erstelle schnell und kostenlos Mosaike für Social Media</h1>
+          <h1>Schnell und kostenlos Bild-Mosaike erstellen</h1>
         </div>
         <div className="keyvisual_image">
           <img alt="Mosaik bestehend aus mehreren Bildern" src={keyImage} />

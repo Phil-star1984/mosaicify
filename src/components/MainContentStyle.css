@@ -95,6 +95,10 @@ select.choose_size {
     text-align: center;
   }
 
+  .keyvisual_image {
+    padding-top: 1rem;
+  }
+
   .mosaic_generator_container {
     padding: 4rem 2rem;
     padding-bottom: 10rem;
