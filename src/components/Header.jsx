@@ -11,7 +11,9 @@ function Header() {
       <nav>
         <ul>
           <li /* style={{ display: "none" }} */>
-            <Link to="/nothing">Nothing</Link>
+            <Link to="http://millionpainter.de/" target="_blank">
+              About
+            </Link>
           </li>
           <li>
             <Link to="/impressum">Impressum</Link>

@@ -6,7 +6,7 @@ function Impressum() {
     <div className="impressum_outer_container">
       <h1>Impressum/Contact</h1>
       <div className="impressum_inner_container">
-        <h2>Angaben gemäß § 5 TMG</h2> Philipp Mulfinger Phil* – Art+Design,
+        <h2>Angaben gemäß § 5 TMG</h2> Philipp Mulfinger, Phil* – Art+Design,
         Wiesenweg 13, 97084 Würzburg, Ust.-Idnr: DE 288086405
         <h2>Haftungsausschluss</h2>
         Haftung für Inhalte Die Inhalte unserer Seiten wurden mit größter
