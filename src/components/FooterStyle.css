@@ -3,15 +3,15 @@ footer {
   align-items: center;
   justify-content: center;
   color: white;
-  padding: 2rem 10rem;
+  padding: 2rem 0rem;
   background-color: rgb(0, 76, 255);
   position: fixed;
   bottom: 0;
-  width: 100%;
+  width: 100vw;
 }
 
-@media only screen and (max-width: 768px) {
-  footer {
-    padding: 2rem 2rem;
+/* @media only screen and (max-width: 768px) {
+  .footer_textcontainer {
+    box-sizing: border-box;
   }
-}
+} */

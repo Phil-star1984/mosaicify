@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "../components/Impressum.css";
 
 function Impressum() {
@@ -8,6 +9,8 @@ function Impressum() {
       <div className="impressum_inner_container">
         <h2>Angaben gemäß § 5 TMG</h2> Philipp Mulfinger, Phil* – Art+Design,
         Wiesenweg 13, 97084 Würzburg, Ust.-Idnr: DE 288086405
+        <h2>Web Development</h2> Idee und Umsetzung:
+        <Link to="http://www.millionpainter.de"> www.Millionpainter.de</Link>
         <h2>Haftungsausschluss</h2>
         Haftung für Inhalte Die Inhalte unserer Seiten wurden mit größter
         Sorgfalt erstellt. Für die Richtigkeit, Vollständigkeit und Aktualität

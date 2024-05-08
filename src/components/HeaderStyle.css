@@ -37,4 +37,8 @@ nav ul {
   header {
     padding: 1rem 2rem;
   }
+
+  nav ul {
+    gap: 1rem;
+  }
 }
